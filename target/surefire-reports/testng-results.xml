@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Azure - Selenium Demo - Maven" duration-ms="21829" started-at="2021-04-23T09:26:57Z" finished-at="2021-04-23T09:27:18Z">
+  <suite name="Azure - Selenium Demo - Maven" duration-ms="25125" started-at="2021-04-23T10:05:09Z" finished-at="2021-04-23T10:05:34Z">
     <groups>
     </groups>
-    <test name="Run on FireFox" duration-ms="21829" started-at="2021-04-23T09:26:57Z" finished-at="2021-04-23T09:27:18Z">
+    <test name="Run on FireFox" duration-ms="25125" started-at="2021-04-23T10:05:09Z" finished-at="2021-04-23T10:05:34Z">
       <class name="automationTest.SeleniumDemo">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:automationTest.SeleniumDemo@797badd3]" name="beforeTest" is-config="true" duration-ms="10068" started-at="2021-04-23T09:26:57Z" finished-at="2021-04-23T09:27:07Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:automationTest.SeleniumDemo@797badd3]" name="beforeTest" is-config="true" duration-ms="12209" started-at="2021-04-23T10:05:09Z" finished-at="2021-04-23T10:05:21Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="TC_01_Verify_Documentation_Title()[pri:0, instance:automationTest.SeleniumDemo@797badd3]" name="TC_01_Verify_Documentation_Title" duration-ms="10763" started-at="2021-04-23T09:27:07Z" finished-at="2021-04-23T09:27:17Z">
+        <test-method status="PASS" signature="TC_01_Verify_Documentation_Title()[pri:0, instance:automationTest.SeleniumDemo@797badd3]" name="TC_01_Verify_Documentation_Title" duration-ms="11948" started-at="2021-04-23T10:05:21Z" finished-at="2021-04-23T10:05:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_Verify_Documentation_Title -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:automationTest.SeleniumDemo@797badd3]" name="afterClass" is-config="true" duration-ms="987" started-at="2021-04-23T09:27:17Z" finished-at="2021-04-23T09:27:18Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:automationTest.SeleniumDemo@797badd3]" name="afterClass" is-config="true" duration-ms="955" started-at="2021-04-23T10:05:33Z" finished-at="2021-04-23T10:05:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
