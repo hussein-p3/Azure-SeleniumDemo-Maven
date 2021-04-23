@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Azure - Selenium Demo - Maven" duration-ms="27693" started-at="2021-04-23T09:19:12Z" finished-at="2021-04-23T09:19:40Z">
+    <groups>
+    </groups>
+    <test name="Run on FireFox" duration-ms="27693" started-at="2021-04-23T09:19:12Z" finished-at="2021-04-23T09:19:40Z">
+      <class name="automationTest.SeleniumDemo">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:automationTest.SeleniumDemo@5af97850]" name="beforeTest" is-config="true" duration-ms="14260" started-at="2021-04-23T09:19:12Z" finished-at="2021-04-23T09:19:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TC_01_Verify_Documentation_Title()[pri:0, instance:automationTest.SeleniumDemo@5af97850]" name="TC_01_Verify_Documentation_Title" duration-ms="12580" started-at="2021-04-23T09:19:26Z" finished-at="2021-04-23T09:19:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Verify_Documentation_Title -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:automationTest.SeleniumDemo@5af97850]" name="afterClass" is-config="true" duration-ms="838" started-at="2021-04-23T09:19:39Z" finished-at="2021-04-23T09:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- automationTest.SeleniumDemo -->
+    </test> <!-- Run on FireFox -->
+  </suite> <!-- Azure - Selenium Demo - Maven -->
+</testng-results>

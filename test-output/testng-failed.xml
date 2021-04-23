@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Azure - Selenium Demo - Maven]">
+  <test thread-count="5" name="Run on FireFox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="automationTest.SeleniumDemo">
+        <methods>
+          <include name="afterClass"/>
+          <include name="TC_01_Verify_Documentation_Title"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- automationTest.SeleniumDemo -->
+    </classes>
+  </test> <!-- Run on FireFox(failed) -->
+</suite> <!-- Failed suite [Azure - Selenium Demo - Maven] -->

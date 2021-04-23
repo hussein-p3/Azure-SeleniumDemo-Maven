@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Azure - Selenium Demo - Maven" parallel="false">
+
+<!-- <parameter name="environment" value="test" /> -->
+
+  <test name="Run on FireFox">
+  <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="automationTest.SeleniumDemo"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
