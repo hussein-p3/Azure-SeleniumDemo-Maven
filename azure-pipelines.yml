@@ -12,7 +12,7 @@ steps:
     cleanDestinationFolder: false
 - task: Maven@3
   inputs:
-    mavenPomFile: '$(System.DefaultWorkingDirectory)/{phuong30887.Azure-SeleniumDemo-Maven}/pom.xml'
+    mavenPomFile: '$(System.DefaultWorkingDirectory)/pom.xml'
     goals: 'clean test'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
